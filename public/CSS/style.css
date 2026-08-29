@@ -1,0 +1,226 @@
+img {
+    width: 150px;
+    height: 60px;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.nav-link {
+    color: #222222  !important;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #ebebeb;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.f-info{
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+}
+
+.f-info-socials,
+.f-info-links,
+.f-info div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-info-socials i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.f-info-socials i:hover{
+    color: #fe424d;
+    transform: scale(1.15);
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+    margin: 0 0.8rem;
+    transition: 0.3s;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+    color: #fe424d;
+}
+
+.f-info div:nth-child(2){
+    color: #444;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* listings */
+
+.card{
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.card-img-top{
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card-title{
+    font-size: 1.2rem;
+}
+
+.card-text{
+    font-size: 1rem;
+}
+
+/* new Listing */
+
+.container{
+    max-width: 900px;
+}
+
+.form-control{
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+}
+
+.form-control:focus{
+    border-color: #fe424d;
+    box-shadow: 0 0 0 0.2rem rgba(254,66,77,0.2);
+}
+
+.btn-danger{
+    background-color: #fe424d;
+    border: none;
+}
+
+.btn-danger:hover{
+    background-color: #e63946;
+}
+
+
+/* Edit */
+
+.container{
+    max-width: 900px;
+}
+
+.form-control{
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+}
+
+.form-control:focus{
+    border-color: #fe424d;
+    box-shadow: 0 0 0 0.2rem rgba(254, 66, 77, 0.2);
+}
+
+.btn-danger{
+    background-color: #fe424d;
+    border: none;
+}
+
+.btn-danger:hover{
+    background-color: #e63946;
+}
+
+/* show */
+
+/* Show Listing Page */
+
+.show-page{
+    max-width: 1100px;
+}
+
+.show-title{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.show-image-box{
+    width: 100%;
+}
+
+.show-image{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.show-details{
+    margin-top: 2.5rem;
+}
+
+.show-description{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.show-btns{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.show-btns .btn{
+    min-width: 170px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.show-btns .btn:hover{
+    transform: translateY(-2px);
+}
+
+@media(max-width:768px){
+
+    .show-title{
+        font-size: 1.8rem;
+    }
+
+    .show-image{
+        height: 300px;
+    }
+
+    .show-btns{
+        flex-direction: column;
+    }
+
+    .show-btns .btn{
+        width: 100%;
+    }
+
+}
+
+
+#map {
+    height: 400px;
+    width: 80vh;
+}
